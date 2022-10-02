@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>fadsfas</title>
+	</head>
+	<body>
+		<h2>Form Mahasiswa</h2>
+		<form name="fmhs" action="proses.php" method="post">
+			<table width="50%">
+				<tr>
+					<td>Nama</td>
+					<td><input type="text" name="fnama" required></td>
+				</tr>
+				<tr>
+					<td>Nim</td>
+					<td><input type="number" name="fnim" required></td>
+					
+				</tr>
+				<tr>
+					<td>Program studi</td>
+					<td><select name="fprodi" required>
+						<option value="">Pilih</option>
+						<option value="a11">S1 - Teknik Informatika</option>
+						<option value="">S1 - Sistem Informasi</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Tanggal lahir</td>
+					<td><input type="date"></td>
+				</tr>
+				<form>
+				<tr>
+					<td>Bidang Minat</td>
+					 <td>
+					  <input type="checkbox" id="minat1" name="minat1" value="web">
+					  <label for="vehicle1"> Web Developer</label><br>
+					  <input type="checkbox" id="minat2" name="minat2" value="mobile">
+					  <label for="vehicle2"> Mobile Developer</label><br>
+					  <input type="checkbox" id="minat3" name="minat3" value="data science">
+					  <label for="vehicle3"> Data Science</label>
+					</td>
+				</tr>
+				</form>
+				<tr>
+					<td>Lamp. Sertifikat</td>
+					<td>
+					<label for="myfile"> </label>
+					<input type="file" id="myfile" name="myfile">
+					</td>
+					
+				</tr>
+				
+			</table>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
