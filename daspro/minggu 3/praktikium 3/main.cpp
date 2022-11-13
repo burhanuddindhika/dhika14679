@@ -18,15 +18,15 @@ int main()
     hasil_relasi = (-100>3<4);
     cout<< "hasil = "<<hasil_relasi<<endl;
     ;*/
-    /*bool hasil_logika;
+    bool hasil_logika;
     hasil_logika = (false && true)^true || (100<90)&&(!false)^(90==90);
-    cout<< "hasil = "<<hasil_logika<<endl;*/
-    //int i=1 ,j;
+    cout<< "hasil = "<<hasil_logika<<endl;
+    /*int i=1 ,j;
     //j=++i;
-    //j=i++;
-    //cout<< "nilai i = "<<i<<endl;
-    //cout<< "nilai j = "<<j;
-
+    j=i++;
+    cout<< "nilai i = "<<i<<endl;
+    cout<< "nilai j = "<<j;
+*/
 
     return 0;
 }

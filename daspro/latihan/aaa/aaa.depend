@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1666664126 source:d:\git hub\daspro\latihan\aaa\main.cpp
+	<iostream>
+	<fstream>
+	<cctype>
+	<iomanip>
+
