@@ -1,0 +1,50 @@
+*{
+    background-color: dimgray;
+}
+
+header {
+    text-align: center;
+    border: 2px solid white;
+    color: aliceblue;
+    padding: 1px;
+    border-bottom: 0;
+    background-color: black;
+}
+
+h2{
+    background-color: black;
+}
+
+nav {
+    float: left;    
+    padding-right: 29px;
+    padding-bottom:38% ;
+    border-right: 2px solid white;
+}
+
+nav ul li :hover{
+    background-color: blue;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    float: left;
+    border: 2px solid white;
+}
+
+article {
+    margin-left: 140px;
+    margin-top: 0%;
+    margin-left: 119px;
+    padding: 10px;
+    border-left: 2px solid white;
+}
+footer{
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 0;
+}

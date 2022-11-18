@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="uft-8">
+		<meta name="description" content="latihan semantik element">
+		<meta name="keywords" content="html">
+		<meta name="author" content="pbw">
+		<meta name="viewport" content="width=device-width, initial-scale=1.1">
+		<title>belajar html 5</title>
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			header{
+				padding: 25px;
+				border:1px solid red;
+			}
+			.row::after{
+				content: "";
+				clear: both;
+				display: table;
+			}
+			[class*="col-"]{
+				float: left;
+				padding: 10px;
+				border: 1px solid red;
+			}
+			.col-1{width :8.33%;}
+			.col-2{width :16.66%;}
+			.col-3{width :25%;}
+			.col-4{width :33.33%;}
+			.col-5{width :41.66%;}
+			.col-6{width :50%;}
+			.col-7{width :58.33%;}
+			.col-8{width :66.66%;}
+			.col-9{width :75%;}
+			.col-10{width :83.33%;}
+			.col-11{width :91.66%;}
+			.col-12{width :100%;}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h2>judul halaman</h2>
+		</header>
+		<main>
+			<nav class="col-4">
+				<ul>
+					<li>menu 1</li>
+					<li>menu 1</li>
+				</ul>
+			</nav>
+		</main>
+		<article class="col-8">
+			<h4>judul</h4>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur commodi nobis reprehenderit, iste corrupti a, enim illo assumenda similique corporis iusto rerum quos quisquam! Dicta dolores quasi similique fugiat.</p>
+		</article>
+		<footer class="col-12"> 
+			copyright <i>&copy;</i> pbw 2022
+		</footer>
+	</body>
+	
