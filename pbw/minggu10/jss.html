@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script> 
+        function hitung(){
+            
+            a=Number(form.num1.value)
+            b=Number(form.num2.value)
+            if(form.opt.value=="+"){
+                c=(a+b)
+            }else if(form.opt.value=="-"){
+                c=(a-b)
+            }else if(form.opt.value=="*"){
+                c=(a*b)
+            }else if(form.opt.value=="/"){
+                c=(a/b)
+            }
+            form.hasil.value=c
+        }
+        function reset(){
+            form.num1.value=""
+            form.num2.value=""
+            form.hasil.value=""
+        }
+    </script>
+</head>
+<body>
+    <form action="#" name="form">
+        bil 1
+        <input type="number" name="num1"><br>
+        operation
+        <select name="opt">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br>
+        
+        bil 2
+        <input type="number" name="num2">    
+        hasil
+        <input type="button" onclick="hitung()" value="=">
+        <input type="number" name="hasil"><br><br>
+        <input type="button" onclick="reset()" value="reset">
+    </form>
+</body>
+</html>
