@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    string x;
+    /*string x;
     char c;
     int i=2;
     cin>>x;
@@ -19,6 +19,29 @@ int main()
         c%=26;
         c+='A';
     }
-    cout<<x.length();
+    cout<<x.length();*/
+
+
+
+    char j;
+    string x;
+    char b;
+    int a,f,q;
+    cout<<"anda ingin menggeser huruf berapa kalimat : ";
+    cin>>q;
+    cout<<"masukan kata yang ingin di decrypt : ";
+    cin>>x;
+    f=x.length();
+    cout<<"kalimat anda yang sebenarnya : ";
+    for(a=1;a<=f;a++){
+        b=x[a-1];
+        b-='a';
+        b+=26-q;
+        b%=26;
+        b+='a';
+        cout<<b;
+    }
+
+
     return 0;
 }
